@@ -19,6 +19,8 @@ client.on('message', message => {
 		message.channel.send(`Your username: ${message.author.username}\nYour ID: ${message.author.id}`);		
 	} else if (message.content === `${prefix}enjin`) {
 		message.channel.send('https://30th-ir.enjin.com/');
+	} else if (message.content === `${prefix}forums`) {
+		message.channel.send('https://30th-ir.enjin.com/');
 	} else if (message.content === `${prefix}help`) {
 		message.channel.send('"!bumpsteam" "!modlist" "!server" "!user-info" "!enjin" "!help"' 
 			);
