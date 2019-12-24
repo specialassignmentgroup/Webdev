@@ -22,8 +22,9 @@ client.on('message', message => {
 	} else if (message.content === `${prefix}forums`) {
 		message.channel.send('https://30th-ir.enjin.com/');
 	} else if (message.content === `${prefix}help`) {
-		message.channel.send('"!bumpsteam" "!modlist" "!server" "!user-info" "!enjin" "!help"' 
-			);
+		message.channel.send('"!bumpsteam" "!modlist" "!server" "!user-info" "!enjin" "!help");
+	} else if (message.content === `${prefix}teamspeak`){
+		message..channel.send('104.243.45.180:9004');
 	}
 });
 
