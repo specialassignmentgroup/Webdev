@@ -20,7 +20,7 @@ client.on('message', message => {
 	} else if (message.content === `${prefix}forums`) {
 		message.channel.send('https://30th-ir.enjin.com/');
 	} else if (message.content === `${prefix}help`) {
-		message.channel.send('"!bumpsteam" "!modlist" "!server" "!user-info" "!enjin" "!help"' 
+		message.channel.send('"!steampost" "!modlist" "!server" "!user-info" "!forums" "!help"' 
 			);
 	}
 });
