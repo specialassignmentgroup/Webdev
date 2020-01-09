@@ -3,7 +3,13 @@ const { prefix, token } = require('./config.json');
 const client = new Discord.Client();
 
 client.once('ready', () => {
+	var bump = client.channels.find(channel => channel.id === '661718661668536320')
+
 	console.log('Ready!');
+
+	setInterval(() => {
+		bump.send("Daily reminder to Bump Steam recruitment post");
+	}, 3.6e+6);
 });
 
 //basic commands 
@@ -24,6 +30,7 @@ client.on('message', message => {
 			);
 	}
 });
+// end of Basic commands 
 
 //  login to Discord with your app's token
 client.login('');
