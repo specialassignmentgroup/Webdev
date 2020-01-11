@@ -8,8 +8,8 @@ client.once('ready', () => {
 	console.log('Ready!');
 
 	setInterval(() => {
-		bump.send("Daily reminder to Bump Steam recruitment post");
-	}, 3.6e+6);
+		bump.send("Daily reminder to Bump Steam recruitment post: https://steamcommunity.com/app/107410/discussions/10/1736634311729653971/");
+	}, 2.16e+7);
 });
 
 //basic commands 
